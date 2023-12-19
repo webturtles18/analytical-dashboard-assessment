@@ -37,7 +37,7 @@ export default function Dimensional() {
       <p className="py-2 semibold text-lg">Dimensional Analysis</p>
         <div className="rounded-lg shadow-md mb-4">
           <div className="rounded-lg bg-white shadow-lg md:shadow-xl relative overflow-hidden">
-            <div className="px-3 pt-8 pb-10 text-center relative z-10 h-[400px] flex place-content-center">
+            <div className="px-3 pt-8 pb-10 text-center relative z-10 h-[500px] flex place-content-center">
               <ChartsComponents type="pie" data={pieData} options={pieOptions} />
             </div>
             <div className="absolute bottom-0 inset-x-0">

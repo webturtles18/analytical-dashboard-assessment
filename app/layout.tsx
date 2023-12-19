@@ -21,7 +21,7 @@ export default function RootLayout({
         <nav className='p-2 bg-[#5582a9] text-white text-center underline'>
           <Link href="/dashboard">Dashboard</Link>
         </nav>
-        <main className="min-w-screen min-h-screen items-center justify-between py-24 px-6">
+        <main className="min-w-screen min-h-screen items-center justify-between pt-12 py-24 px-6">
           {children}
         </main>
       </body>
